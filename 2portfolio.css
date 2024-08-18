@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -155,7 +154,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     nav ul li {
         display: block;
@@ -186,7 +185,7 @@ footer a:hover {
     }
 }
 
-/* Animations */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
