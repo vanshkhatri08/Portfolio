@@ -1,4 +1,3 @@
-// Smooth Scrolling Navigation
 document.querySelectorAll('nav ul li a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -11,7 +10,6 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
     });
 });
 
-// Dark Mode Toggle (Optional, uncomment if you add a button for dark mode)
 const toggleButton = document.getElementById('toggle-dark-mode');
 if (toggleButton) {
     toggleButton.addEventListener('click', () => {
@@ -19,7 +17,7 @@ if (toggleButton) {
     });
 }
 
-// Project Filter
+
 const filterButtons = document.querySelectorAll('#project-filter button');
 const projects = document.querySelectorAll('.project');
 
@@ -36,7 +34,8 @@ filterButtons.forEach(button => {
     });
 });
 
-// Form Validation
+
+
 const form = document.getElementById('contact-form');
 
 if (form) {
